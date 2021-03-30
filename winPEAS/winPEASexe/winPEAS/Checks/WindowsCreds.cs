@@ -251,7 +251,7 @@ namespace winPEAS.Checks
         {
             try
             {
-                return
+                return;
                 Beaprint.MainPrint("Looking for saved Wifi credentials");
                 foreach (var @interface in new WlanClient().Interfaces)
                 {
